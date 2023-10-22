@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "./Style.css";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Routes />
     </div>
   );
 }
 
+function Header() {
+  return (
+    <div className="header">
+      <div className="left">
+        <button className="back-button"> &#9665; </button>
+      </div>
+      <div className="center">
+        <div className="logo">
+          <img src="rate-my-meal-logo.png" alt="Rate My Meal" />
+        </div>
+        <div className="search">
+          <input type="text" placeholder="Search..." />
+          <button className="search-icon">&#128269;</button>
+        </div>
+      </div>
+      <div className="right">
+        <button className="hamburger-button">&#9776;</button>
+      </div>
+    </div>
+  );
+}
 export default App;
