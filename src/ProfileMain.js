@@ -4,34 +4,35 @@ import { Link } from "react-router-dom";
 
 function ProfileMain() {
   return (
-    <div classname="main-container">
-      <div classname="heading-text">
+    <div className="main-container">
+      <div className="heading-text">
         <h1>Your Profile</h1>
       </div>
-      <div classname="gray-background">
-        <div classname="primary-container">
-          <div classname="main-name">
+      <div className="gray-background">
+        <div className="primary-container">
+          <div className="main-name">
             <h2>John Doe</h2>
           </div>
-          <div classname="first-name">
+          <div className="first-name">
             <h5>First Name : </h5>
-            <p classname="form-data">john</p>
+            <p className="form-data">john</p>
           </div>
-          <div classname="second-name">
+          <div className="second-name">
             <h5>Second Name : </h5>
-            <p classname="form-data">Doe</p>
+            <p className="form-data">Doe</p>
           </div>
-          <div classname="email">
+          <div className="email">
             <h5>Email : </h5>
-            <p classname="form-data">johndoe@gmail.com</p>
+            <p className="form-data">johndoe@gmail.com</p>
           </div>
-          <div classname="contact-no">
+          <div className="contact-no">
             <h5>Contact Number : </h5>
-            <p classname="form-data">+94 7789456641</p>
+            <p className="form-data">+94 7789456641</p>
           </div>
-          <div classname="btn-container">
-            <link to="/ProfileInfo" />
-            <button classname="save-button">Edit Profile</button>
+          <div className="btn-container">
+            <Link to="/ProfileInfo">
+              <button className="save-button">Edit Profile</button>
+            </Link>
           </div>
         </div>
       </div>

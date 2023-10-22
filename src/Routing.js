@@ -1,17 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProfileMain from "./ProfileMain";
 import ProfileInfo from "./ProfileInfo";
 
-const Routes = () => {
+const Routing = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={ProfileMain} />
+      <Routes>
+        <Route exact path="/Profile" component={ProfileMain} />
         <Route path="/ProfileInfo" component={ProfileInfo} />
-      </Switch>
+      </Routes>
     </Router>
   );
 };
 
-export default Routes;
+export default Routing;

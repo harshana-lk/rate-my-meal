@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import "./Style.css";
-import Routes from "./Routes";
+import Routes from "./Routing";
+import ProfileMain from "./ProfileMain";
 
 function App() {
   return (
