@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
 
-function ProfileMain() {
+const ProfileMain = () => {
   return (
     <div className="main-container">
       <div className="heading-text">
@@ -38,6 +38,5 @@ function ProfileMain() {
       </div>
     </div>
   );
-}
-
+};
 export default ProfileMain;

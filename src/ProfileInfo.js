@@ -1,7 +1,7 @@
 import React from "react";
 import "./Style.css";
 
-function ProfileInfo() {
+const ProfileInfo = () => {
   return (
     <div>
       <div className="gray-background">
@@ -97,6 +97,6 @@ function ProfileInfo() {
       </div>
     </div>
   );
-}
+};
 
 export default ProfileInfo;
