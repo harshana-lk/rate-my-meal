@@ -30,9 +30,7 @@ const ProfileMain = () => {
             <p className="form-data">+94 7789456641</p>
           </div>
           <div className="btn-container">
-            <Link to="/ProfileInfo">
-              <button className="save-button">Edit Profile</button>
-            </Link>
+            <button className="save-button">Edit Profile</button>
           </div>
         </div>
       </div>
