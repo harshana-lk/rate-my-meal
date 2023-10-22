@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
 
-const ProfileMain = () => {
+function ProfileMain() {
   return (
     <div classname="main-container">
       <div classname="heading-text">
@@ -30,13 +30,13 @@ const ProfileMain = () => {
             <p classname="form-data">+94 7789456641</p>
           </div>
           <div classname="btn-container">
-            <link to="./ProfileInfo" />
+            <link to="/ProfileInfo" />
             <button classname="save-button">Edit Profile</button>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default ProfileMain;
