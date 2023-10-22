@@ -7,7 +7,7 @@ const Routing = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/Profile" component={ProfileMain} />
+        <Route exact path="/" component={ProfileMain} />
         <Route path="/ProfileInfo" component={ProfileInfo} />
       </Routes>
     </Router>

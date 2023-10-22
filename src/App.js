@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import "./Style.css";
-import Routes from "./Routing";
+import Routing from "./Routing";
 import ProfileMain from "./ProfileMain";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Routes />
+      <Routing />
     </div>
   );
 }
